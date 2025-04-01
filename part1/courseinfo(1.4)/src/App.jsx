@@ -1,10 +1,10 @@
 const App = () => {
-
+  
   const Header = () => {
-  return (
-    <h1>{course}</h1>
-  )
-}
+    return (
+      <h1>{course}</h1>
+    )
+  }
 
   const Content = () => {
     return (
@@ -13,8 +13,10 @@ const App = () => {
   }
 
   const Total = () => {
+    const a = parts[0].exercises
+
     return (
-      <p>Number of exercises (sum{parts[0].exercises} + {parts[1].exercises} + {parts[2].exercises})</p>
+      <p>{Total}</p>
     )
   }
 
